@@ -28,7 +28,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 15px 10%;
 }
 
 .logo{
@@ -57,7 +57,7 @@ input{
 }
 
 
-.body2{
+.slogan{
     margin-top: 20px;
     background-image: url(./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
     background-repeat: no-repeat;
@@ -83,5 +83,107 @@ input{
     z-index: 1;
     margin: auto;
     width: 75%;
-    padding-top: 19%;
+    padding-top: 16%;
     padding-left: 66%;
+}
+
+.about-page{
+    height: 100vh;
+    width: 100vw;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+
+.about-page h2{
+    color: rgb(106, 110, 110);
+    padding-top: 50px;
+    padding-bottom: -20px;
+    font-size: 20px;   
+}
+
+.about-page h2::after{
+    
+    content:' ';
+    display:block;
+    border:2px solid black;
+    width: 40%;
+}
+
+
+
+
+
+
+.description1{
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: inherit;
+    width: 40%;
+    margin-left: 1%;
+    float: left;
+}
+
+
+
+.grid-container {
+    display: grid;
+    gap: 0px;
+    background-color: #ffffff;
+    padding: 0px;
+    margin-top: 0px;
+    align-items: end;
+  }
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: justify;
+    padding: 20px;
+    font-size: 20px;
+  }
+  
+  
+  .grid-item-wider {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align:justify;
+    padding: 20px;
+    font-size: 30px;
+    
+  }
+  
+  .item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    width: 100%;
+    font-size: 15px;
+  }
+  
+
+  .item3 {
+    grid-column: 2;
+    grid-row: 2 / span 3;
+    width: 300px;
+    font-size: 15px;
+  }
+  
+  
+  .item5 {
+    grid-column: 3 ;
+    grid-row: 1 / span 4;
+  }
+  
+  .item4 {
+    grid-column: 1 ;
+    grid-row: 2 / span 3;
+  }
+
+  .imgsize1{
+    width: 262.46px;
+    height: 298.63px;
+  }
+
+
+  .imgsize2{
+    width: 320px;
+    height: 440.13px;
+  }
